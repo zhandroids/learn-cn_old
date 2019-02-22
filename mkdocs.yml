@@ -332,6 +332,8 @@ pages:
         - robit智能小车案例01：超声波测距: robit_smart_car_case_01.md
         - robit智能小车案例02：边缘检测: robit_smart_car_case_02.md
     - iot:bit物联网套件: 
+        - iot:kit套件介绍: iotbit.md
+        - iot:bit物联网扩展版: iotbit.md
         - iot套件案例01：空气质量监测站: IOT_bit_case01.md
         - iot套件案例02：环境噪音监测站: IOT_bit_case02.md
         - iot套件案例03：环境质量监测站: IOT_bit_case03.md
