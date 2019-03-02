@@ -306,6 +306,7 @@ pages:
         - Ring:bit 小车组装教程: ring_bit_car_v2_assembly_step.md
         - 3路IO带电池盒扩展板（Ring:bit）: ring_bit_v2.md
         - Ring:bit积木块介绍: ring_bit_car_v2_extensions.md
+        - 专用巡线模块: ring_bit_car_v2_line_flow_module.md
         - 案例01 全速行驶: ring_bit_car_v2_case_01.md
         - 案例02 画一个形状: ring_bit_car_v2_case_02.md
         - 案例03 转弯画圆: ring_bit_car_v2_case_03.md
