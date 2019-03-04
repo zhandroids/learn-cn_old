@@ -12,6 +12,7 @@ Octopus有源蜂鸣器Brick基于有源蜂鸣器，无法通过PWM控制音量�
 ---
 项目 | 参数 
 :-: | :-: 
+SKU|EF04030
 电源需求|5V
 接口类型|模拟
 引脚定义|S-Sigal V-VCC G-GND
