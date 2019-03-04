@@ -359,19 +359,60 @@ pages:
         - 案例07 自动车灯: Robit_Case_07.md
         - 案例08 手机遥控: Robit_Case_08.md 
         - 案例09 反应力小游戏: Robit_Case_09.md
-                
+    
   - micro:bit 电子积木传感器:
-    - 蓝色电位器电子积木: octopus_ef04085.md
-    - 3V 继电器电子积木: octopus_ef04086.md
-    - BME280 气压电子积木: octopus_ef04087.md
-    - 3线宽压超声波电子积木: sonar_bit.md
-    - 两路巡线模块电子积木: octopus_ef04088.md  
-    - PM2.5电子积木: octopus_ef04090.md  
-    - 单颗彩虹LED电子积木: octopus_ef04091.md  
-    - 8 x 16点阵屏电子积木: octopus_ef03418.md
-    - 圣诞树彩灯: christmas_tree_rainbow_led.md
-    - 雪花蜂鸣器: snowflake_buzzer.md
-  
+    - 输入型电子积木: 
+        - 按钮电子积木:octopus_ef04034.md   
+        - 蓝色电位器电子积木: octopus_ef04085.md
+        - 黑色长柄电位器电子积木: octopus_ef04041.md   
+        - 滑条电位器电子积木: octopus_ef04061.md
+        - ADKay键盘电子积木: octopus_ef04017.md   
+        - 自锁按钮电子积木: octopus_ef04035.md   
+    - 输出型电子积木:
+        - 3V 继电器电子积木: octopus_ef04086.md
+        - 5V 继电器电子积木: octopus_ef04026.md   
+        - 单颗彩虹LED电子积木: octopus_ef04091.md
+        - 8 x 16点阵屏电子积木: octopus_ef03418.md
+        - 圣诞树彩灯: christmas_tree_rainbow_led.md
+        - 雪花蜂鸣器: snowflake_buzzer.md
+        - OLED显示屏: octopus_ef03155.md
+        - 有源蜂鸣器: octopus_ef04030.md   
+        - 无源蜂鸣器: octopus_ef04031.md   
+        - 蓝色圆形LED: octopus_ef04036.md
+        - 绿色圆形LED: octopus_ef04062.md
+        - 红色圆形LED: octopus_ef04063.md
+        - 白色圆形LED: octopus_ef04065.md
+        - 黄色圆形LED: octopus_ef04066.md
+        - 130带扇叶电机电子积木: octopus_ef04055.md   
+        - 震动电机电子积木: octopus_ef04074.md
+    - 传感器电子积木:
+        - BME280 气压电子积木: octopus_ef04087.md
+        - 3线宽压超声波电子积木: sonar_bit.md
+        - PM2.5电子积木: octopus_ef04090.md
+        - 两路巡线模块电子积木: octopus_ef04088.md   
+        - 倾斜开关电子积木: octopus_ef04001.md   
+        - 红外传感器电子积木: octopus_ef04002.md   
+        - RTC时钟电子积木: octopus_ef04005.md   
+        - 声音传感器电子积木: octopus_ef04008.md   
+        - 触摸传感器电子积木: octopus_ef04011.md 
+        - 光电开关电子积木: octopus_ef04012.md
+        - 碰撞开关电子积木: octopus_ef04013.md   
+        - 震动开关电子积木: octopus_ef04014.md
+        - 热电偶转换电子积木: octopus_ef04018.md        
+        - DHT11温湿度电子积木: octopus_ef04019.md   
+        - 雨水湿度电子积木: octopus_ef04024.md   
+        - 土壤湿度电子积木: octopus_ef04027.md   
+        - 光敏电阻电子积木: octopus_ef04032.md   
+        - 电压检测电子积木: octopus_ef04039.md   
+        - 18B20温度传感器电子积木: octopus_ef04042.md  
+        - 人体红外传感器电子积木: octopus_ef04055.md   
+        - 磁性开关电子积木: octopus_ef04075.md
+        - 手势识别电子积木: octopus_ef04078.md
+        - TMP36温度传感器电子积木: octopus_ef04079.md
+        - 噪音传感器电子积木: octopus_ef04081.md
+        - 风速传感器电子积木: octopus_ef04083.md
+        - 可调光电传感器电子积木: octopus_ef11044.md
+        - 灰尘传感器电子积木: octopus_ef11083.md
   - micro:bit 其他配件:
     - 2xAA 无盖电池盒: 2xAA_Battery_Holder_without_Cover.md
     - 2xAA 有盖带开关电池盒: 2xAA_Battery_Holder_With_ON_OFF_Switch_and_Cover.md
