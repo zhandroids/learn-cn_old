@@ -1,0 +1,57 @@
+## 简介
+---
+声音传感器对声音强度特别敏感，可用于检测环境声级。更大的噪声带来更大的输出正弦波振幅。
+
+ ![](https://i.imgur.com/hP4azP5.png)
+
+## 特性
+---
+
+- 具备octopus系列即插即用的特性。
+
+## 技术规格
+---
+项目 | 参数 
+:-: | :-: 
+SKU|EF04081
+输出电压|3.3V-5V
+正弦波|大声的噪声带来更大的输出正弦波振幅
+## 外形与定位尺寸
+ ![](https://i.imgur.com/uPRIFLt.png)
+
+## 快速上手
+---
+
+### 所需器材及连接示意图
+
+- 如图连接扩展板的P1口
+
+***以sensor：bit为例***
+
+ ![](https://i.imgur.com/I9xA8Ms.png)
+
+### 添加packege
+
+### 如图所示编写程序
+1.添加led显示模块
+
+2.显示读取到的声音信息
+
+ ![](https://i.imgur.com/s2Rucs0.png)
+
+### 参考程序
+
+请参考程序连接：[https://makecode.microbit.org/_ebfHWPiUA0Tm](https://makecode.microbit.org/_ebfHWPiUA0Tm)
+
+你也可以通过以下网页直接下载程序，下载完成后即可开始运行程序。
+
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_ebfHWPiUA0Tm" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+---
+
+### 结果
+- micro：bit上显示接收的声音强弱的信息。
+## 相关案例
+---
+
+## 技术文档
+---
