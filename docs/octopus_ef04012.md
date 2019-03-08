@@ -39,15 +39,15 @@ ITR9608光电开关|内置红外发射管和接收管。
 - 显示变量`item`的值。
 - 每当光电开关读取到一次值，将变量`item`加一。
 
- ![](https://i.imgur.com/3QyTFDO.png)
+![](https://i.imgur.com/dii53A7.png)
 
 ### 参考程序
 
-请参考程序连接：[https://makecode.microbit.org/_gU59iHDxzLo0](https://makecode.microbit.org/_gU59iHDxzLo0)
+请参考程序连接：[https://makecode.microbit.org/_VcJWCh4hw97j](https://makecode.microbit.org/_VcJWCh4hw97j)
 
 你也可以通过以下网页直接下载程序，下载完成后即可开始运行程序。
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_gU59iHDxzLo0" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_VcJWCh4hw97j" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 ---
 
 ### 结果
