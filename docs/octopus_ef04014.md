@@ -34,6 +34,7 @@ SKU|EF04014
 
 ### 如图所示编写程序
 - 显示P1口的返回值。
+
  ![](https://i.imgur.com/5qzwCGO.png)
 
 ### 参考程序
@@ -44,7 +45,7 @@ SKU|EF04014
 <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_32DD3C4Lv33u" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 
 ### 结果
-- 当振动时，micro：bit的led上显示1，否则显示0。
+- 当振动时，micro:bit的点阵屏上显示1，否则显示0。
 
 ## 相关案例
 ---
