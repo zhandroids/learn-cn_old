@@ -1,6 +1,6 @@
 ## 简介
 ---
-- Photo Interrupter Sensor是一款基于ITR9608光电开关的传感器模块，配以特殊的Arduino屏蔽使用。
+- Photo Interrupter Sensor是一款基于ITR9608光电开关的传感器模块，可以配合micoro:bit使用。
 
  ![](https://i.imgur.com/xxZhvK9.jpg)
 
