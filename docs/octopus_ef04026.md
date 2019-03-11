@@ -1,12 +1,12 @@
 ## 简介
 ---
-- OCTOPUS 1Channel Relay是一款单继电器电子积木块。
+OCTOPUS 1Channel Relay是一款单继电器电子积木块。
 
  ![](https://i.imgur.com/1E9gHLP.jpg)
 
 ## 特性
 ---
-- 具备octopus系列即插即用的特性。
+- 三线端口设计，防止误插，易于使用。
 - 3V电压支持micro:bit驱动
 
 ## 技术规格
