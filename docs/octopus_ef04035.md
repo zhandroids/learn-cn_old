@@ -1,6 +1,6 @@
 ## 简介
 ---
-这是Push Lock E-Switch按钮模块，它可以检测您的按压动作。它非常适合初学者测试Arduino或成为您项目中的第一个传感器。它很容易用于Chipkit，STM32，AVR，ARM和 其他mirc-MCU。
+这是Push Lock E-Switch按钮模块，它可以检测您的按压动作，非常适合初学者使用。
 
  ![](https://i.imgur.com/SMeQQyr.jpg)
 
@@ -48,7 +48,7 @@ SKU|EF04035
 ---
 
 ### 结果
-- 当按钮被按下时，micro：bit上进行按钮状态的数值反馈，或是0或是1。
+- 当按钮被按下时，micro:bit上进行按钮状态的数值反馈，或是0或是1。
 
 ## 相关案例
 ---
