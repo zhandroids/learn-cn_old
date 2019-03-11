@@ -1,6 +1,6 @@
 ## 简介
 ---
-这块传感器使用Maxim IC的DS18B20 1-Wire数字温度传感器。 
+是基于Maxim IC DS18B20 1-Wire的数字温度传感器。 
 
  ![](https://i.imgur.com/c8DrDnH.jpg)
 
@@ -37,10 +37,13 @@ SKU|EF04042
  ![](https://i.imgur.com/smtcNoB.png)
 
 点击“Extensions”，在弹出的对话框中搜索“iot"，下载iot代码库。
+
  ![](https://i.imgur.com/qChMeYd.png)
+ 
 ### 如图所示编写程序
 
- ！[](https://i.imgur.com/kO6z0oE.png)
+ ![](https://i.imgur.com/kO6z0oE.png)
+ 
 ### 参考程序
 
 请参考程序连接：[https://makecode.microbit.org/_FEiCtaV235Xw](https://makecode.microbit.org/_FEiCtaV235Xw)
@@ -51,7 +54,7 @@ SKU|EF04042
 ---
 
 ### 结果
-- micro：bit led显示屏上显示相关的温度信息。
+- micro：bit的点阵屏上显示相关的温度信息。
 
 ## 相关案例
 ---
