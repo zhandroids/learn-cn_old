@@ -52,6 +52,7 @@
 ### 硬件连接
 根据下面的图片将你的元件连接起来：
 
+
 ![](https://i.imgur.com/2MZA7bj.jpg)
 
 micro:bit的IO口的驱动电流非常微弱的，不足以直接驱动电机。这时候，我们就需要用到三极管将IO信号的电流放大，用三极管放大IO口信号电流的电路图与上一课驱动蜂鸣器的电路图非常类似，唯一的区别是在电机两端加上了一个二极管。该二极管在此电路中叫做续流二极管。
@@ -61,6 +62,7 @@ micro:bit的IO口的驱动电流非常微弱的，不足以直接驱动电机。
 三极管将IO信号的电流放大的局部电路图如下： 
 
 ![](https://i.imgur.com/e4YL3hx.jpg)
+
 连接完成后如图:
 
 ![](https://i.imgur.com/RwH4uNp.jpg) 
@@ -131,4 +133,6 @@ micro:bit的IO口的驱动电流非常微弱的，不足以直接驱动电机。
 [micro:bit知识库地址](https://www.elecfreaks.com/learn-cn/)    
 micro:bit官方推荐供应商：[恩孚科技淘宝店](https://shop69086944.taobao.com/?spm=a230r.7195193.1997079397.2.RSthR0)  
 QQ技术交流群：570756726   
+
+
 
