@@ -1,16 +1,12 @@
-![2](https://i.imgur.com/SVbSfPB.jpg)
+ ![2](https://i.imgur.com/SVbSfPB.jpg)
 
-## 介绍:
+## 简介
 ---
+在上一个实验中，我们已经学习了如何让micro:bit控制2颗LED灯交替闪烁。这次我们将使用一个按钮来控制LED灯的闪烁。当我们按下按钮，2颗LED灯会交替闪烁；松开按钮，LED灯就会停止闪烁。 
 
-在上一个实验中，我们已经学习了如何让micro:bit控制2颗LED灯交替闪烁。这次我们将使用一个按钮来控制LED灯的闪烁。当我们按下按钮，2颗LED灯会交替闪烁；松开按钮，LED灯就会停止闪烁。
-
-
-## 元件清单：
+## 元件清单
 ---
-
 ### 硬件：
-
 - 1 x micro:bit
 - 1 x USB线  
 - 1 x micro:bit面包板扩展板
@@ -18,20 +14,14 @@
 - 2 x LED  
 - 2 x 100欧姆电阻  
 - 1 x 瞬时按钮开关  
-- 1 x 跳线
+- 若干跳线
 
 **温馨提示：如果你需要以上所有元件，你可以购买我们的[Elecfreaks小小科学家套件](https://item.taobao.com/item.htm?spm=a1z10.1-c-s.w4024-17803785896.2.18dc3f94XOgpWg&id=562837851877&scene=taobao_shop)。**
 
 ![](https://i.imgur.com/W4tseua.jpg)
 
-### 软件：
-
-[微软Makecode在线编辑器](https://makecode.microbit.org/)
-
-
 ## 主要元件介绍
 ---
-
 ### 瞬时按钮开关
 
 这是一个用来控制电子设备的普通元件。它大部分用于连接或者切断控制电路，从而实现电机或者其他电子设备的控制。
@@ -44,73 +34,68 @@
 ![](https://i.imgur.com/OgWZfBQ.jpg)
 
 
-## 硬件连接
+## 快速上手
 ---
+### 硬件连接
+根据下面的图片将你的元件连接起来：
 
-按照下面的图片，将你的元件连接。
+- 1.将led灯的短引脚与GND连接
+
+- 2.将led灯的长引脚通过电阻，与P0口与P1口连接
+
+- 3.将瞬时开关与P2口连接
 
 ![](https://i.imgur.com/qXKoSN4.jpg) 
 
-这是连接完成后的样子：
+连接完成后如图:
 
 ![](https://i.imgur.com/uGLigLh.jpg)
 
+### 软件
 
-## 编程
+[微软Makecode在线编辑器:makecode.microbit.org](https://makecode.microbit.org/)
+
+![](https://i.imgur.com/JHZUvh2.png)
+
+### 添加packege
+- 无需添加
+
+### 如图所示编写程序
+
+![](https://i.imgur.com/SHgMhjZ.png)
+
+### 代码详解
+- 1.在on start 积木块中将P2口电位拉高。
+
+![](https://i.imgur.com/pS67VCj.png)
+
+- 2.读取P2口的状态，判断按钮是否按下，当按钮被按下，将P0口写入数字信号0，关闭led，将P1口写入数字信号1，打开led，延迟500ms，将P0口写入数字信号1，打开led，将P1口写入数字信号0，关闭led，延迟500ms。
+
+![](https://i.imgur.com/mpKfkU4.png)
+
+### 参考程序
+请参考程序连接：[https://makecode.microbit.org/_T585WeYwVWtv](https://makecode.microbit.org/_T585WeYwVWtv)
+
+你也可以通过以下网页直接下载程序，下载完成后即可开始运行程序。
+
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_T585WeYwVWtv" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 ---
 
-打开[Makecode在线编辑器](https://makecode.microbit.org/)，在代码编辑区域编写你的代码。建议你先自己尝试着去编程。 
-
-程序完整代码的链接：[https://makecode.microbit.org/_TtCgehfm4Ued](https://makecode.microbit.org/_TtCgehfm4Ued)
-
-当然，你也可以通过下面这个链接下载程序的完整代码。只要点击右上角的“编辑”，然后再点击右下角的“下载”，将程序下载到micro:bit上。
-
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_YA4YdedoKJH3" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
-
-
-## 代码解释：
+## 实验结果
 ---
-
-**on start**
-
-在程序开始的时候运行的一个事件。
-on start是一个特殊的事件。它在程序开始的时候运行，并位于其他任何事件的前面。用这个事件来初始化你的程序。
-
-**set pull**
-
-设置指定引脚的电拉力。
-很多micro:bit引脚都可以被设置成上拉模式。例如：一个上拉模式可以将一个引脚的电压设置成高电压（3.3V或者1V，当调用digital read pin积木块的时候)。如果按钮的一端连接到了P0（设置成高电压），另一端连接到了GND (0V),那么当你按下按钮，P0被0V驱动，micro:bit软件就检测到一个按钮被按下。
-
-**if**
-
-If开启了一个条件判断语句。当if后面的表达是true（或1），那么运行它里面的程序。当if后面的表达是false（或0），它将会跳出程序的循环。下面是If语句的结构： 
-
-![](https://i.imgur.com/IrqTK6y.jpg)
-
-**digital read**
-
-Digital read主要是读取引脚的电压。当它读出高电压，它就会显示1.当它读出低电压，它就显示0。
-
-
-## 实验结果：
-
-当你按下按钮，你可以看到2颗LED灯交替闪烁；松开按钮，这两颗LED灯就停止闪烁。
+当你按下按钮，你可以看到2颗LED灯交替闪烁；松开按钮，这两颗LED灯就停止闪烁。如果不是这样的话，请返回之前的步骤，检查你的操作。
 
 ![](https://i.imgur.com/7w5yp6z.gif)
 
 
-## 思考：
-
-如果我们想按下按钮点亮红色的LED灯，松开按钮点亮绿色的LED等，那么我们该如何编程呢？欢迎给我们留言或者和我们进一步探讨。
-
-
+## 思考
+---
+如果我们想按下按钮点亮红色的LED灯，松开按钮点亮绿色的LED等，那么我们该如何编程呢？
 ## 常见问题
 ---
 
-
-## 相关阅读：
+## 相关阅读
 ---
-
 [Micro:bit小小科学家课程01:LED](/Micro_bit_Starter_Kit_Lesson_01_LED_CN/)  
 [Micro:bit小小科学家课程03:电位器](/Micro_bit_Starter_Kit_Lesson_03_Trimpot_CN/)  
 [Micro:bit小小科学家课程04:光敏电阻](/Micro_bit_Starter_Kit_Lesson_04_Photocell_CN/)  
@@ -125,11 +110,9 @@ Digital read主要是读取引脚的电压。当它读出高电压，它就会�
 [Micro:bit小小科学家课程13:指南针](/Micro_bit_Starter_Kit_Lesson_13_Compass_CN/)  
 [Micro:bit小小科学家课程14:环境光](/Micro_bit_Starter_Kit_Lesson_14_Ambient_Light_CN/)  
 
-
 ## 更多信息，欢迎访问：
 ---
 [micro:bit知识库地址](https://www.elecfreaks.com/learn-cn/)       
 micro:bit官方推荐供应商：[恩孚科技淘宝店](https://shop69086944.taobao.com/?spm=a230r.7195193.1997079397.2.RSthR0)     
 QQ技术交流群：570756726     
-
 
