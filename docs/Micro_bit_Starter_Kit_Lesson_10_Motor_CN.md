@@ -1,16 +1,12 @@
-![10](https://i.imgur.com/8KZyoCy.jpg)
+ ![10](https://i.imgur.com/8KZyoCy.jpg)
 
-## 介绍  
+## 简介
 ---
-
 电机是依据电磁感应定律实现电能转换为动能的一种装置。在这次的实验中，我们将用一个开关来控制电机的启动与停止。
 
-
-## 元件清单  
+## 元件清单
 ---
-
-### 硬件:  
-
+### 硬件：
 - 1 x micro:bit
 - 1 x USB线
 - 1 x micro:bit面包板扩展板
@@ -19,21 +15,14 @@
 - 1 x TIP 120 NPN 三极管
 - 1 x 1N4007 二极管
 - 1 x 100 欧姆电阻
-- 1 x 跳线
 - 2 x 鳄鱼夹线
-
+- 若干跳线
 **温馨提示：如果你需要以上所有元件，你可以购买我们的[Elecfreaks小小科学家套件](https://item.taobao.com/item.htm?spm=a1z10.1-c-s.w4024-17803785896.2.18dc3f94XOgpWg&id=562837851877&scene=taobao_shop)。**
 
 ![](https://i.imgur.com/W4tseua.jpg)
 
-### 软件：
-
-[微软MakeCode在线编辑器](https://makecode.microbit.org/)
-
-
 ## 主要元件介绍
 ---
-
 ### 电机
 
 电机是依据电磁感应定律实现电能转换为动能的一种装置。电机的分类非常多，在本案例里，我们用到的是直流电机。当在电机两端加上直流电压时，电机会旋转，电压越高，旋转的速度越快。
@@ -58,10 +47,11 @@
 ![](https://i.imgur.com/Oj1aUaf.jpg)
 
 
-## 硬件连接  
+## 快速上手
 ---
+### 硬件连接
+根据下面的图片将你的元件连接起来：
 
-按照下图， 完成硬件的连接。
 
 ![](https://i.imgur.com/2MZA7bj.jpg)
 
@@ -73,54 +63,57 @@ micro:bit的IO口的驱动电流非常微弱的，不足以直接驱动电机。
 
 ![](https://i.imgur.com/e4YL3hx.jpg)
 
-连接完成后，实物图如下： 
+连接完成后如图:
 
 ![](https://i.imgur.com/RwH4uNp.jpg) 
 
+### 软件
 
-## 编程  
+[微软Makecode在线编辑器:makecode.microbit.org](https://makecode.microbit.org/)
+
+![](https://i.imgur.com/JHZUvh2.png)
+
+### 添加packege
+- 无需添加
+
+### 如图所示编写程序
+
+![](https://i.imgur.com/imGjxBm.png)
+
+### 代码详解
+- 1.将P0口写入数字信号1，将P1端口上拉至高电平，这样才能正常识别按钮信号
+
+![](https://i.imgur.com/Qqjk2WB.png)
+
+- 2.当按钮被按下，设置P0为1，放开时，设置为数字信号量0
+
+![](https://i.imgur.com/lFdOZxr.png)
+
+### 参考程序
+请参考程序连接：[https://makecode.microbit.org/_CAUDezEJrVtc](https://makecode.microbit.org/_CAUDezEJrVtc)
+
+你也可以通过以下网页直接下载程序，下载完成后即可开始运行程序。
+
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_CAUDezEJrVtc" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 ---
 
-打开[MakeCode在线编辑器](https://makecode.microbit.org/)，在代码编辑区域中编写代码。建议你先自己尝试着编程。
-
-程序完整代码的链接：[https://makecode.microbit.org/_MwaF0ALKiP5c](https://makecode.microbit.org/_MwaF0ALKiP5c)
-
-当然，你也可以通过下面这个链接查看程序的完整代码。点击右上角的“编辑”，然后再点击右下角的“下载”，你就可以将代码直接下载到micro:bit上了。
-
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_MwaF0ALKiP5c" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
-
-
-## 代码解释  
+## 实验结果
 ---
-
-在软件方面，本实验没有涉及到新的知识点。
-本实验特别要注意的是P1口连接的是按钮，在on start积木块里，一定要设置P1口为上拉模式，否则可能无法正确识别按钮信号。
-
-![](https://i.imgur.com/7lkYPlA.jpg)
-
-
-## 实验结果  
----
-
 按下按钮时，电机开始旋转，再按一次，电机停止旋转。
 注意：micro:bit的电源电压比较低，只有3V，按下按钮时，电机有可能不能启动，遇到这种情况，请用手拨动一下电机的扇叶，电机方能正常旋转。
 
 ![](https://i.imgur.com/UeWUgLi.gif)
 
 
-## 思考   
+## 思考
 ---
-
-如果要用电位器对电机进行速度控制，该如何设计电路与编程？欢迎来与我们讨论。
-
+如果要用电位器对电机进行速度控制，该如何设计电路与编程？
 
 ## 常见问题
 ---
 
-
-## 相关阅读  
+## 相关阅读
 ---
-
 [Micro:bit小小科学家课程01:LED](/Micro_bit_Starter_Kit_Lesson_01_LED_CN/)                          
 [Micro:bit小小科学家课程02:按钮](/Micro_bit_Starter_Kit_Lesson_02_Button_CN/)      
 [Micro:bit小小科学家课程03:电位器](/Micro_bit_Starter_Kit_Lesson_03_Trimpot_CN/)     
@@ -135,11 +128,11 @@ micro:bit的IO口的驱动电流非常微弱的，不足以直接驱动电机。
 [Micro:bit小小科学家课程13:指南针](/Micro_bit_Starter_Kit_Lesson_13_Compass_CN/)    
 [Micro:bit小小科学家课程14:环境光](/Micro_bit_Starter_Kit_Lesson_14_Ambient_Light_CN/)     
 
-
 ## 更多信息，欢迎访问：
 ---
-[micro:bit知识库地址](https://www.elecfreaks.com/learn-cn/)       
-micro:bit官方推荐供应商：[恩孚科技淘宝店](https://shop69086944.taobao.com/?spm=a230r.7195193.1997079397.2.RSthR0)    
-QQ技术交流群：570756726      
+[micro:bit知识库地址](https://www.elecfreaks.com/learn-cn/)    
+micro:bit官方推荐供应商：[恩孚科技淘宝店](https://shop69086944.taobao.com/?spm=a230r.7195193.1997079397.2.RSthR0)  
+QQ技术交流群：570756726   
+
 
 
