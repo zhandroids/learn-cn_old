@@ -30,7 +30,7 @@ SKU|EF04065
 
 ![](https://i.imgur.com/n43XoAW.jpg)
 
-### 添加packege
+### 添加Package
 在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
 
 ![](https://i.imgur.com/smtcNoB.png)
