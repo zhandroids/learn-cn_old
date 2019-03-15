@@ -37,7 +37,8 @@ SKU|EF04011
 连接到扩展板的P1口
 
  ![](https://i.imgur.com/xqYKZ0r.png)
-### 添加packege
+ 
+### 添加Package
 在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
 
  ![](https://i.imgur.com/smtcNoB.png)
@@ -57,7 +58,7 @@ SKU|EF04011
 ---
 
 ### 结果
-- micro:bit的led显示屏上显示出相关的传感器数据信息。
+- micro:bit的点阵屏上显示出相关的传感器数据信息。
 
 ## 相关案例
 ---
