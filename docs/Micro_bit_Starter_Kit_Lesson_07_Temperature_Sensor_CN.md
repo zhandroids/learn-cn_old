@@ -60,7 +60,7 @@ TMP36输出电压随温度变化的曲线是这样的：
 
 ![](https://i.imgur.com/JHZUvh2.png)
 
-### 添加packege
+### 添加Package
 - 无需添加
 
 ### 如图所示编写程序
