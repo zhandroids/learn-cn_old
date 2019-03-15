@@ -35,7 +35,7 @@ SKU|EF04008
 
  ![](https://i.imgur.com/ALobDLt.png)
 
-### 添加packege
+### 添加Package
 - 在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
 
  ![](https://i.imgur.com/smtcNoB.png)
@@ -60,7 +60,7 @@ SKU|EF04008
 ---
 
 ### 结果
-- micro：bit的点阵屏上显示出当前环境的噪声分贝大小。
+- micro:bit的点阵屏上显示出当前环境的噪声分贝大小。
 
 ## 相关案例
 ---

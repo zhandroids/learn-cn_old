@@ -38,7 +38,7 @@ SKU|EF04019
 
  ![](https://i.imgur.com/jxvVgcK.png)
 
-### 添加packege
+### 添加Package
 - 在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
 
  ![](https://i.imgur.com/smtcNoB.png)
@@ -61,7 +61,7 @@ SKU|EF04019
 ---
 
 ### 结果
-- 可以看见温度值在micro:bit点阵屏上滚动显示。
+- 温度值在micro:bit点阵屏上滚动显示。
 
 ## 相关案例
 --

@@ -47,7 +47,7 @@ micro:bit屏幕是由一个5x5的LED点阵构成。它作为一个3x9的矩阵�
 
 ![](https://i.imgur.com/JHZUvh2.png)
 
-### 添加packege
+### 添加Package
 - 在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
 
 ![](https://i.imgur.com/smtcNoB.png)

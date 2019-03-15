@@ -30,7 +30,7 @@ SKU|04036
 ***以sensor：bit为例***
 
  ![](https://i.imgur.com/gPeDZkY.png)
-### 添加packege
+### 添加Package
 
 ### 如图所示编写程序
 - 循环的给P1口写入0，1。

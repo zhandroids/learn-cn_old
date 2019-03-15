@@ -29,7 +29,7 @@ SKU|EF04081
 
  ![](https://i.imgur.com/I9xA8Ms.png)
 
-### 添加packege
+### 添加Package
 
 ### 如图所示编写程序
 1.添加led显示模块

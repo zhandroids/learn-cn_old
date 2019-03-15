@@ -37,7 +37,7 @@ SKU|EF04027
 
  ![](https://i.imgur.com/gcLtAb7.png)
 
-### 添加packege
+### 添加Package
 - 在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
 
  ![](https://i.imgur.com/smtcNoB.png)
@@ -61,7 +61,7 @@ SKU|EF04027
 ---
 
 ### 结果
-- 将此传感器模块插入土壤中后，可以在microbit上看到土壤含水量的值。
+- 将此传感器模块插入土壤中后，可以在micro:bit的点阵屏上显示出土壤含水量的值。
 
 ## 相关案例
 ---

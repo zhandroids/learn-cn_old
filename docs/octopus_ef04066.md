@@ -5,13 +5,12 @@ Octopus 5mmLED灯模块，能和micro:bit/Arduino扩展板搭配,实现调整环
 
 ## 特性
 ---
--  具备octopus系列即插即用的特性。
+- 三线端口设计，防止误插，易于使用。
 
 ## 技术规格
 ---
 项目 | 参数 
 :-: | :-: 
-
 电压|3.3V~5V
 重量|5克
 
@@ -28,7 +27,7 @@ Octopus 5mmLED灯模块，能和micro:bit/Arduino扩展板搭配,实现调整环
 ***以sensor：bit为例***
 
 ![](https://i.imgur.com/fDm8yzB.png)
-### 添加packege
+### 添加Package
 在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
 
 ![](https://i.imgur.com/smtcNoB.png)

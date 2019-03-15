@@ -26,11 +26,12 @@ SKU|EF04039
 ---
 ### 所需器材及连接示意图
 如下图所示，连接扩展板的P1口。
+
 ***以sensor:bit为例***
 
  ![](https://i.imgur.com/fcHzFyT.png)
 
-### 添加packege
+### 添加Package
 
 ### 如图所示编写程序
 

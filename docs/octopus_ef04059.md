@@ -33,7 +33,7 @@ N-MOS| IRLML2502TRPBF具有高电流驱动能力
 
  ![](https://i.imgur.com/ZBTdQp1.png)
 
-### 添加packege
+### 添加Package
 ### 如图所示编写程序
 按A键向P16口写入1，按B键向P16口写入0
 
