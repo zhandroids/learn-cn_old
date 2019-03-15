@@ -37,7 +37,7 @@ SKU|EF04030
 
 ![](https://i.imgur.com/r3NAMg8.png)
 
-### 添加packege
+### 添加Package
 
 ### 如图所示编写程序
 ![](https://i.imgur.com/CjlZhvP.png)
@@ -52,7 +52,7 @@ SKU|EF04030
 ---
 
 ### 结果
-- 蜂鸣器发出持续不断地蜂鸣声。
+- 蜂鸣器持续不断的发出蜂鸣声。
 
 ## 相关案例
 ---
