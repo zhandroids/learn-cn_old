@@ -32,7 +32,7 @@ SKU|EF04074
 
 ***以sensor:bit为例***
 ![](https://i.imgur.com/opsGYQb.png)
-### 添加packege
+### 添加Package
 
 ### 如图所示编写程序
 
