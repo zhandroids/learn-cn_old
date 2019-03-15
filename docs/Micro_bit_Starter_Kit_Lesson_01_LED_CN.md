@@ -67,7 +67,7 @@ LED是Light Emitting Diode（发光二极管）的缩写。这是一种半导体
 
 ![](https://i.imgur.com/JHZUvh2.png)
 
-### 添加packege
+### 添加Package
 - 无需添加
 
 ### 如图所示编写程序
