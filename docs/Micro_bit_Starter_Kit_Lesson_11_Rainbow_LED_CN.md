@@ -53,7 +53,7 @@ LED具有低电压驱动，环保节能，亮度高，散射角度大，一致�
 
 ![](https://i.imgur.com/JHZUvh2.png)
 
-### 添加packege
+### 添加Package
 - 在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
 
 ![](https://i.imgur.com/smtcNoB.png)
