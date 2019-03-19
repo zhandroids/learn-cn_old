@@ -350,7 +350,7 @@ pages:
         - iot:kit套件介绍: iot_kit.md
         - iot:bit物联网扩展版: iot_bit.md
         - thingspeak平台简易操作指南: how_to_use_thinkspeak.md
-        - ITFFF平台操作指南:
+        - ITFFF平台操作指南: how_to_use_IFTTT.md
         - iot套件案例01：空气质量监测站: IOT_bit_case01.md
         - iot套件案例02：环境噪音监测站: IOT_bit_case02.md
         - iot套件案例03：环境质量监测站: IOT_bit_case03.md
