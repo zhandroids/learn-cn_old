@@ -137,7 +137,7 @@ pages:
     - WebUSB下载问题: troubleshooting_downloads_with_webusb.md
     - 如何使用蓝牙: 如何使用蓝牙（IOS系统）.md
     - 加速度计算法: ring_bit_car_v2_accelerometer_arithmetic.md
-    - Excel与micro:bit:
+    - Excel与micro:bit: excel_and_microbit.md
     
     
   - Micropython 系列教程:
