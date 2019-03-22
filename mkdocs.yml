@@ -136,10 +136,7 @@ pages:
     - micro:bit I/O口数据手册: Edge_Connector_Data_Sheet.md
     - WebUSB下载问题: troubleshooting_downloads_with_webusb.md
     - 如何使用蓝牙: 如何使用蓝牙（IOS系统）.md
-    - 加速度计算法: ring_bit_car_v2_accelerometer_arithmetic.md
-    - Excel与micro:bit: excel_and_microbit.md
-    
-    
+
   - Micropython 系列教程:
     - 1 准备开始Micropython学习: 
           - 1.1 什么是micro:bit: micropython1_1.md
@@ -321,6 +318,7 @@ pages:
         - Ring:bit积木块介绍: ring_bit_car_v2_extensions.md
         - 专用巡线模块: ring_bit_car_v2_line_flow_module.md
         - 专用灯条模块: ring_bit_car_v2_Rainbow_LED_module.md
+        - 加速度计算法: ring_bit_car_v2_accelerometer_arithmetic.md
         - 案例01 全速行驶: ring_bit_car_v2_case_01.md
         - 案例02 画一个形状: ring_bit_car_v2_case_02.md
         - 案例03 转弯画圆: ring_bit_car_v2_case_03.md
@@ -351,6 +349,7 @@ pages:
         - iot:bit物联网扩展版: iot_bit.md
         - thingspeak平台简易操作指南: how_to_use_thinkspeak.md
         - ITFFF平台操作指南: how_to_use_IFTTT.md
+        - Excel与micro:bit: excel_and_microbit.md
         - iot套件案例01：空气质量监测站: IOT_bit_case01.md
         - iot套件案例02：环境噪音监测站: IOT_bit_case02.md
         - iot套件案例03：环境质量监测站: IOT_bit_case03.md
@@ -400,6 +399,7 @@ pages:
         - 白色圆形LED: octopus_ef04065.md
         - 黄色圆形LED: octopus_ef04066.md
         - 130带扇叶电机电子积木: octopus_ef04059.md   
+        - 3V水泵: 3V_vertical_water_pump.md
         - 震动电机电子积木: octopus_ef04074.md
     - 传感器电子积木:
         - BME280 气压电子积木: octopus_ef04087.md
@@ -435,7 +435,7 @@ pages:
     - micro:bit外壳: Micro_case_CN.md
     - micro:bit外壳带AA电池盒: Acrylic_Case_with_Two_AA_Battery_Holder.md
     - Motor:bit小车底盘: Smart_Car_Chassis_for_motor_bit_CN.md 
-    - 3V水泵: 3V_vertical_water_pump.md
+
 
 
 
