@@ -52,29 +52,46 @@
 
  ![](https://i.imgur.com/SkGJN5h.jpg)
 
+- 要使用Ring:bit小车的Rainbow功能，请在基础板上将开关拨动至Rainbow LED功能。
+
+ ![](https://i.imgur.com/CfGTC9t.jpg)
+
 ### 软件编程  
 ---
 
 - 在[makecode](https://makecode.microbit.org/)在线编辑器中编写一段简单的彩虹灯代码。
-- 设置Strip变量，初始化连接到到P0的10颗LED。
-- 设置LED显示rainbow彩虹色。
-- 在forever中循环位移颜色。
-- 显示颜色。
 
- ![](https://i.imgur.com/BokHpFU.png)
+ ![](https://i.imgur.com/zqBmuEN.png)
 
- 程序代码链接：[https://makecode.microbit.org/_Eyc3eCLLj2YF](https://makecode.microbit.org/_Eyc3eCLLj2YF)
+- 从Neopixel积木块中拖出`NeoPixel at pin……`积木块，插入到`On Start`积木块中。
+- 将10颗连接到P2口的Rainbow LED存储到`all_led`变量中。
+
+ ![](https://i.imgur.com/P8dTKHu.png)
+
+- 在`forever`积木块中设置`Single`变量为所有LED`all_led`中从`choice`颗开始的第一颗灯。
+- `choice`变量依次加一，依次选择10颗灯。
+
+ ![](https://i.imgur.com/vU8l2P2.png)
+
+- 当选择变量`choice`大于9时，意味着选择到最后一颗灯，将`choice`变量设置为0，重新循环。
+
+ ![](https://i.imgur.com/2jda8fX.png)
+
+- 将选择好的灯`single`显示`red`红色，延迟200ms后，熄灭LED。
+
+ ![](https://i.imgur.com/qbAvPFJ.png)
+
+ 程序代码链接：[https://makecode.microbit.org/_cg0JCtE5HHET](https://makecode.microbit.org/_cg0JCtE5HHET)
 
  你也能通过下列窗口直接下载代码：
 
- <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_Eyc3eCLLj2YF" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+ <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_cg0JCtE5HHET" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
 
 ### 结果
 ---
-- 彩虹车灯。
+- 顺序点亮Rainbow LED。
 
- ![](https://i.imgur.com/tb3xtb6.gif)
- ![](https://i.imgur.com/tqwSQ3y.gif)
+ ![](https://i.imgur.com/RuCcyiq.gif)
 
 ## 文档
 ---
