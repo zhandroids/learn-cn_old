@@ -51,17 +51,33 @@
 
  ![](https://i.imgur.com/BcVzgia.jpg)
 
+- 要使用Ring:bit小车除了Rainbow LED外的其他功能，均要将底板的拨片开关拨到`other modules`一侧。
+
+ ![](https://i.imgur.com/jrWzkFJ.jpg)
+
 ### 软件编程  
 ---
 
 - 在[makecode](https://makecode.microbit.org/)在线编辑器中编写一段简单的巡线代码。
 
+ ![](https://i.imgur.com/qxE2Vto.png)
+
 - 开机时初始化左右轮连接口为P1和P2。
+- 然后以100的速度前进。
+
+ ![](https://i.imgur.com/52DzbGf.png)
+
 - 当左检测头偏离黑线，右轮停止，左轮以50的速度以矫正回归黑线。
+
+ ![](https://i.imgur.com/5J1Vx9h.png)
+
 - 右检测头同理。
+
+ ![](https://i.imgur.com/SVUxLr8.png)
+
 - 当两个检测头均检测到黑线，以100的速度向前行驶。
 
- ![](https://i.imgur.com/gZ0qhYI.png)
+ ![](https://i.imgur.com/CcO2RN6.png)
 
  程序代码链接：[https://makecode.microbit.org/_Jh2RVDMRwDz1](https://makecode.microbit.org/_Jh2RVDMRwDz1)
 
