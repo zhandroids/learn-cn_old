@@ -47,21 +47,16 @@ SKU|EF04079
  ![](https://i.imgur.com/dsPDNvD.png)
 
 ### 如图所示编写程序
-1.调用micro：bit的led显示模块
 
-2.调用iot函数库中的读取温度的函数
-
-3.显示相关的温度
-
- ![](https://i.imgur.com/PvPxhtr.png)
-
+ ![](https://i.imgur.com/ZoFOqI8.png)
+ 
 ### 参考程序
 ---
-请参考程序连接：[https://makecode.microbit.org/_URRdVrPFX68R](https://makecode.microbit.org/_URRdVrPFX68R)
+请参考程序连接：[https://makecode.microbit.org/_AKuYFoDsLJ7D](https://makecode.microbit.org/_AKuYFoDsLJ7D)
 
 你也可以通过以下网页直接下载程序，下载完成后即可开始运行程序。
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_URRdVrPFX68R" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_AKuYFoDsLJ7D" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 ---
 
 ### 结果
